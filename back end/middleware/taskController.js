@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const { Task, User, SharedTask, Comment, Notification } = require('../models');
+const { Task, User, SharedTask, Comment, Notification } = require('../../database');
 const moment = require('moment');
 
 // @desc    Get all tasks owned by user

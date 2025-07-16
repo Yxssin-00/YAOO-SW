@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const User = require('../models/User');
+const { User } = require('../../database');
 
 // @desc    Get all users (admin only)
 // @route   GET /api/users

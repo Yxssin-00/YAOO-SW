@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const { Notification } = require('../models');
+const { Notification } = require('../../database');
 
 // @desc    Get notifications for user
 // @route   GET /api/notifications

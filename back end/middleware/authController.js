@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const asyncHandler = require('express-async-handler');
-const User = require('../models/User');
+const { User } = require('../../database');
 
 // @desc    Register new user
 // @route   POST /api/register

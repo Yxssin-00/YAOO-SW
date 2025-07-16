@@ -21,4 +21,11 @@ SharedTask.associate(db.models);
 Comment.associate(db.models);
 Notification.associate(db.models);
 
-module.exports = db;
+module.exports = {
+  db,
+  User,
+  Task,
+  SharedTask,
+  Comment,
+  Notification
+};
